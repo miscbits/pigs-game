@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="includes/css/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="includes/js/main.js"></script>
+    <script src="includes/d6/d6.js"></script>
+
+    <link rel="icon" type="image/png" href="pig.png">
+
+
+    <title>PIGS!</title>
+</head>
+
+<body>
+    <div id="body-wrapper">
+        <div id="game">
+            <h1>!@#$ PIGS $#@!</h1>
+            <form>
+                <h3 id="turn"></h3>
+                <span id="curAtRisk">Currently at risk: </span><span id="risk"></span>
+                <div><span id="message">Roll the die?</span></div>
+
+                <script type='text/javascript'>
+                	D6.dice(1);
+                </script>
+
+
+                <div id="scores">
+                	<p>Player 1: <span id="player-1"></span></p>
+                	<p>Player 2: <span id="player-2"></span></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

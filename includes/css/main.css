@@ -1,0 +1,33 @@
+#game {
+	width: 768px;
+	margin: 0 auto;
+	background-color: pink;
+	height: 340px;
+}
+#game h1, form, input, span, p {
+	text-align: center;
+}
+
+#game h1 {
+	padding-top: 30px;
+}
+
+body {
+	background: url('../../background.jpg');
+}
+.diceform {
+	display: inline-block;
+	width: 70px;
+}
+.diceform input {
+	width: 60px;
+}
+#dice1 {
+	height: 55px;
+}
+
+@media (max-width: 768px) {
+  #game {
+  	width: 100%;
+  }
+}
