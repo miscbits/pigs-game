@@ -3,8 +3,9 @@
 	margin: 0 auto;
 	background-color: pink;
 	height: 340px;
+	border-radius: 30px;
 }
-#game h1, form, input, span, p {
+#game h1, form, input, span, p, h3 {
 	text-align: center;
 }
 
@@ -26,8 +27,19 @@ body {
 	height: 55px;
 }
 
+#rules {
+	width: 768px;
+	margin: 0 auto;
+	background-color: rgb(253, 186, 198);
+	border-radius: 30px;
+	height: 273px;
+}
+#rules h3 {
+	padding-top: 10px;
+}
+
 @media (max-width: 768px) {
-  #game {
+  #game, #rules {
   	width: 100%;
   }
 }
